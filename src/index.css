@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sign-up-bg {
+  position: absolute;
+  top: 0;
+  right: -100px;
+  z-index: -1;
+  overflow: hidden;
+  max-height: calc(100vh + 248px);
+}
+
+.login-bg {
+  position: absolute;
+  top: 0;
+  left: -100px;
+  z-index: -1;
+  overflow: hidden;
+  max-height: calc(100vh + 248px);
+}

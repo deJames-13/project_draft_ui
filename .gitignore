@@ -1,0 +1,6 @@
+node_modules
+tailwind.config.js
+
+./src/index.css
+package-lock.json
+package.json
