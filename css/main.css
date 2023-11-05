@@ -641,10 +641,6 @@ video {
   height: 12rem;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
 .max-h-screen {
   max-height: 100vh;
 }
@@ -936,8 +932,8 @@ video {
   line-height: 1;
 }
 
-.text-8xl {
-  font-size: 6rem;
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -949,11 +945,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -1006,7 +997,7 @@ video {
 .login-bg {
   position: absolute;
   top: 0;
-  left: -100px;
+  left: -160px;
   z-index: -1;
   overflow: hidden;
   max-height: calc(100vh + 248px);
@@ -1051,11 +1042,6 @@ video {
 
 .hover\:text-6xl:hover {
   font-size: 3.75rem;
-  line-height: 1;
-}
-
-.hover\:text-9xl:hover {
-  font-size: 8rem;
   line-height: 1;
 }
 
@@ -1165,10 +1151,6 @@ video {
     margin-top: 3rem;
   }
 
-  .lg\:mt-1 {
-    margin-top: 0.25rem;
-  }
-
   .lg\:mt-16 {
     margin-top: 4rem;
   }
@@ -1183,10 +1165,6 @@ video {
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:h-24 {
-    height: 6rem;
   }
 
   .lg\:h-64 {
@@ -1225,28 +1203,8 @@ video {
     align-items: center;
   }
 
-  .lg\:justify-start {
-    justify-content: flex-start;
-  }
-
-  .lg\:justify-center {
-    justify-content: center;
-  }
-
   .lg\:justify-around {
     justify-content: space-around;
-  }
-
-  .lg\:space-y-12 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(3rem * var(--tw-space-y-reverse));
-  }
-
-  .lg\:space-y-8 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(2rem * var(--tw-space-y-reverse));
   }
 
   .lg\:space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -1255,17 +1213,9 @@ video {
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
   }
 
-  .lg\:self-start {
-    align-self: flex-start;
-  }
-
   .lg\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-  }
-
-  .lg\:pt-12 {
-    padding-top: 3rem;
   }
 
   .lg\:text-6xl {

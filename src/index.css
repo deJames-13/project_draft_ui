@@ -14,7 +14,7 @@
 .login-bg {
   position: absolute;
   top: 0;
-  left: -100px;
+  left: -160px;
   z-index: -1;
   overflow: hidden;
   max-height: calc(100vh + 248px);
